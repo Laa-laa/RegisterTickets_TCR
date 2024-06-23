@@ -15,14 +15,13 @@ class TestTicketsService(unittest.TestCase):
         sys.stdout = sys.__stdout__
         self.assertIn("Hello, World!", captured_output.getvalue().strip())
 
-    # def test_calculate_total_price(self):
-    #     price = 5.0
-    #     quantity = 3
-    #     expected_total = 15.0
-    #     order = TicketsService(price, quantity)
-    #     actual_total = order.calculate_total_price()
-    #     self.assertEqual(expected_total, actual_total)
-
+    # def test_calcul_prix_total(self):
+    #     prix = 5.0
+    #     somme = 3
+    #     total_attendu = 15.0
+    #     order = TicketsService(prix, somme)
+    #     total_actuel = order.calcul_prix_total()
+    #     self.assertEqual(total_attendu, total_actuel)
 
 if __name__ == '__main__':
     unittest.main()
