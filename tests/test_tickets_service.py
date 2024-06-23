@@ -16,7 +16,7 @@ class TestTicketsService(unittest.TestCase):
         self.assertIn("Hello, World!", captured_output.getvalue().strip())
 
     # def test_calcul_prix_total(self):
-    #     prix = 5.0
+    #     prix = 5.0 #prix souhaité pour chaque articles
     #     somme = 3
     #     total_attendu = 15.0
     #     order = TicketsService(prix, somme)
