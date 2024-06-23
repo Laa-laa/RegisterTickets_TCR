@@ -23,9 +23,6 @@ class TestTicketsService(unittest.TestCase):
     #     actual_total = order.calculate_total_price()
     #     self.assertEqual(expected_total, actual_total)
 
-    # def test_constructor_with_negative_quantity_throws_value_error(self):
-    #     with self.assertRaises(ValueError):
-    #         TicketsService(5.0, -1)
 
 if __name__ == '__main__':
     unittest.main()
